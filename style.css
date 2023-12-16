@@ -1,0 +1,48 @@
+* {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 100%;
+}
+.banner > img {
+    width: auto;
+}
+
+.buttons > * {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+}
+
+.home > a {
+    position: absolute;
+    top: 400px; left: 100px;
+    display: flex;
+    height: 6rem;
+    width: 15rem;
+}
+
+a > button {
+    height: 6rem;
+    width: 15rem;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+}
