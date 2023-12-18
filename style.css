@@ -17,10 +17,16 @@ img {
     flex-basis: 100%;
 }
 .banner > img {
-    width: auto;
+    width: 15%;
 }
 
-.buttons > * {
+.banner > div {
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.navbar > * {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -31,7 +37,7 @@ img {
     display: flex;
 }
 
-.home > a {
+.home > .buttons {
     position: absolute;
     top: 400px; left: 100px;
     display: flex;
